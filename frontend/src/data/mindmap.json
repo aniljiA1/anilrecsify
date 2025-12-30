@@ -1,0 +1,41 @@
+{
+  "id": "root",
+  "title": "Vitamins in Human Body",
+  "summary": "Essential micronutrients required for normal metabolic function.",
+  "children": [
+    {
+      "id": "classification",
+      "title": "Vitamin Classification",
+      "summary": "Classified based on solubility",
+      "children": [
+        {
+          "id": "fat",
+          "title": "Fat-Soluble Vitamins",
+          "children": [
+            { "id": "A", "title": "Vitamin A" },
+            { "id": "D", "title": "Vitamin D" },
+            { "id": "E", "title": "Vitamin E" },
+            { "id": "K", "title": "Vitamin K" }
+          ]
+        },
+        {
+          "id": "water",
+          "title": "Water-Soluble Vitamins",
+          "children": [
+            { "id": "C", "title": "Vitamin C" },
+            { "id": "B", "title": "Vitamin B Complex" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "title": "Dietary Sources",
+      "children": [
+        { "id": "fruits", "title": "Fruits & Vegetables" },
+        { "id": "dairy", "title": "Meat & Dairy" },
+        { "id": "sun", "title": "Sunlight & Fortified Foods" }
+      ]
+    }
+  ]
+}
